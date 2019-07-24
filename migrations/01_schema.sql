@@ -4,7 +4,7 @@ CREATE TABLE users (
   id SERIAL PRIMARY KEY, 
   name TEXT, 
   email TEXT, 
-  password TEXT
+  password TEXT DEFAULT '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'
 );
 
 CREATE TABLE properties (
