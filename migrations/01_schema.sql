@@ -21,7 +21,7 @@ CREATE TABLE properties (
   country TEXT, 
   street TEXT, 
   city TEXT, 
-  province TEXT, 
+  provence TEXT, 
   post_code VARCHAR(20), 
   active BOOLEAN
 );
